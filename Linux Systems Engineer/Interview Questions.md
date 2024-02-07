@@ -2,7 +2,7 @@
 
 ### Remember to not just memorize these questions and answers but to try and understand the systems behind the questions and answers.
 
-- Explain the Linux boot process. Describe the stages and steps involved from the moment you power on a Linux system until it's fully booted and operational.
+### 1. Explain the Linux boot process. Describe the stages and steps involved from the moment you power on a Linux system until it's fully booted and operational.
   - Sure, the Linux boot process involves several stages. Here's a high-level overview:
 
   1. **BIOS (Basic Input/Output System)**: When you power on the system, the BIOS is the first software to run. It initializes the hardware, including the processor, memory, and disk drives, and then searches for the bootable device. The BIOS reads the MBR (Master Boot Record) where the bootloader resides.
@@ -20,7 +20,7 @@
   - This is a simplified explanation. The exact process can vary depending on the specific Linux distribution and the system configuration. For example, some systems use UEFI instead of BIOS, and systemd instead of the traditional init process. But the general principles are the same.
 
 
-- Differentiate between a process and a thread in Linux. Discuss the fundamental differences between processes and threads in the context of a Linux operating system.
+### 2. Differentiate between a process and a thread in Linux. Discuss the fundamental differences between processes and threads in the context of a Linux operating system.
 Sure, in the context of a Linux operating system, here are the fundamental differences between a process and a thread:
 
   1. **Definition**:
@@ -44,16 +44,16 @@ Sure, in the context of a Linux operating system, here are the fundamental diffe
       - **Thread**: Threads are best used for tasks that need to share data with other tasks frequently or tasks that are naturally divided into subtasks that can run in parallel.
 
 
-- How do you troubleshoot high CPU usage on a Linux server? Explain the steps you would take to identify and resolve high CPU utilization issues on a Linux server.
-- What is the purpose of the /etc/passwd and /etc/shadow files in Linux? Discuss the role of these two files in user authentication and password management.
-- Explain the chroot command and its use cases.Describe what the chroot command does and provide examples of scenarios where it is useful.
-- What is the difference between a hard link and a symbolic link in Linux? Differentiate between hard links and symbolic links, and explain their respective use cases.
-- How do you check for open ports on a Linux system?Describe the commands or tools you would use to determine which ports are open and listening on a Linux machine.
-- Discuss the purpose and usage of the cron and at services in Linux. Explain how to schedule recurring and one-time tasks using cron and at.
-- What is systemd and how does it differ from the traditional SysV init system? Provide an overview of systemd, its benefits, and how it differs from the older SysV init system.
-- Explain the Linux file permission system, including the meaning of the values in a permission string.Describe the three sets of permissions (user, group, and others) and what each value in the permission string represents.
-- How would you check system resource utilization (CPU, memory, disk) on a Linux server? Describe the commands and tools you would use to monitor system resource usage.
-- Discuss the differences between a process and a daemon. Explain what processes and daemons are and how they differ in the context of a Linux system.
-- Explain how to mount and unmount file systems in Linux. Describe the process of mounting and unmounting different types of file systems in Linux.
-- What is the purpose of the /etc/fstab file, and how is it used?Discuss the role of the /etc/fstab file in managing filesystems and how it's configured.
-- How do you secure a Linux server?Discuss various security best practices, including user management, firewall setup, and software updates, to enhance the security of a Linux server.
+### 3. How do you troubleshoot high CPU usage on a Linux server? Explain the steps you would take to identify and resolve high CPU utilization issues on a Linux server.
+### 4. What is the purpose of the /etc/passwd and /etc/shadow files in Linux? Discuss the role of these two files in user authentication and password management.
+### 5. Explain the chroot command and its use cases.Describe what the chroot command does and provide examples of scenarios where it is useful.
+### 6. What is the difference between a hard link and a symbolic link in Linux? Differentiate between hard links and symbolic links, and explain their respective use cases.
+### 7. How do you check for open ports on a Linux system?Describe the commands or tools you would use to determine which ports are open and listening on a Linux machine.
+### 8. Discuss the purpose and usage of the cron and at services in Linux. Explain how to schedule recurring and one-time tasks using cron and at.
+### 9. What is systemd and how does it differ from the traditional SysV init system? Provide an overview of systemd, its benefits, and how it differs from the older SysV init system.
+### 10. Explain the Linux file permission system, including the meaning of the values in a permission string.Describe the three sets of permissions (user, group, and others) and what each value in the permission string represents.
+### 11. How would you check system resource utilization (CPU, memory, disk) on a Linux server? Describe the commands and tools you would use to monitor system resource usage.
+### 12.  Discuss the differences between a process and a daemon. Explain what processes and daemons are and how they differ in the context of a Linux system.
+### 13.  Explain how to mount and unmount file systems in Linux. Describe the process of mounting and unmounting different types of file systems in Linux.
+### 14.  What is the purpose of the /etc/fstab file, and how is it used?Discuss the role of the /etc/fstab file in managing filesystems and how it's configured.
+### 15.  How do you secure a Linux server?Discuss various security best practices, including user management, firewall setup, and software updates, to enhance the security of a Linux server.
